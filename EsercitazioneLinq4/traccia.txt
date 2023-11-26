@@ -1,0 +1,23 @@
+Esercizzio 4 : Un Carello per sito ecmerce 
+
+Proggettare la struttura a oggetti per gestire un carrello di un sito di e-commerce.
+
+Un carello è associato all'utente collegato al sito, e per ogni utente e previsto un solo carrello 
+
+E' importante risalire dall'utente all carello e non viceversa.
+L'utente e caratterizato da Username, Password (Privato), Nome e Cognome.
+Ogni carello puo contenere diversi prodotti; 
+Per ogni prodotto nel carello è riportata la quantità , il prezzo, l'eventuale sconto applicato (in termini percentuali).
+Ogni prodotto è caratterizzato da un codice, una descrizione, un prezzo.
+Dato un prodotto non è necessario risalire ai carelli in cui è stato aggiunto.
+
+Sul carrello è possibile eseguire le seguenti operazioni : 
+
+Aggiungi prodotto 
+Elimina Prodotto 
+Modifica di un prodotto già inserito 
+Calcola totale
+Stampa a video dell carello (formato a piacere) 
+
+Si noti che nel caso sia inserito un prodotto che gia esiste nel carello va a modificare la quantità del prodotto 
+precedentemente inserito
